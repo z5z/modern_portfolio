@@ -1,0 +1,24 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Patryk's Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "keywords": [
+    "portfolio",
+    "languages",
+    "english",
+    "webdesign",
+    "it",
+    "teacher",
+    "poland",
+    "vizja"
+  ],
+  "author": "Patryk Sobczyk",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
