@@ -1,5 +1,3 @@
 # modern_portfolio
 
-A website for my work and a training ground.
-# my_portfolio
-# modern_portfolio
+My first portfolio webiste written in SCSS.
