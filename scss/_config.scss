@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #225378;
+$secondary-color: #eb7f00;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -60,42 +60,42 @@ $background-opacity: 0.9;
   }
 }
 /* iphone 3 */
-@mixin mediaSm {
+@mixin iphone3 {
   @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 1) {
   }
   @content;
 }
 
 /* iphone 4 */
-@mixin mediaSm {
+@mixin iphone4 {
   @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
   }
   @content;
 }
 
 /* iphone 5 */
-@mixin mediaSm {
+@mixin iphone5 {
   @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
   }
   @content;
 }
 
 /* iphone 6, 6s, 7, 8 */
-@mixin mediaSm {
+@mixin iphone6-8 {
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   }
   @content;
 }
 
 /* iphone 6+, 6s+, 7+, 8+ */
-@mixin mediaSm {
+@mixin iphoneplus {
   @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   }
   @content;
 }
 
 /* iphone X */
-@mixin mediaSm {
+@mixin iphoneX {
   @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   }
   @content;
